@@ -1,0 +1,185 @@
+.home_page .personal_info {
+  text-align: center;
+  padding-bottom: 5rem;
+  width: 845px;
+  margin: 0 auto;
+}
+
+.home_page .personal_info .headline {
+  font-size: 36px;
+  color: black;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: -0.035em;
+}
+
+.home_page .personal_info .subtitle {
+  font-size: 18px;
+  color: black;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: -0.035em;
+  padding-top: 8px;
+}
+
+.home_page .personal_info .personal_info_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 45px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.home_page .personal_info .personal_info_box .first_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.home_page .personal_info .personal_info_box .first_row .profile_info {
+  text-align: left;
+}
+
+.home_page
+  .personal_info
+  .personal_info_box
+  .first_row
+  .profile_info
+  .headline {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: -0.035em;
+}
+
+.home_page .personal_info .personal_info_box .first_row .profile_info .message {
+  font-size: 14px;
+  color: #828282;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+  padding-top: 4px;
+}
+
+.home_page .personal_info .personal_info_box .first_row .edit_btn {
+  font-family: NotoSans;
+  font-size: 16px;
+  color: #828282;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  text-decoration: none;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  height: 38px;
+  width: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.home_page .personal_info .personal_info_box .single_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.home_page .personal_info .personal_info_box .single_row .title {
+  font-size: 14px;
+  color: #bdbdbd;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+}
+
+.home_page .personal_info .personal_info_box .single_row .value {
+  font-size: 18px;
+  color: #333333;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: -0.035em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.home_page .personal_info .personal_info_box .single_row .bio {
+  width: 460px;
+}
+
+.home_page .personal_info .personal_info_box .single_row .user_photo {
+  width: 72px;
+  border-radius: 8px;
+}
+
+.home_page .personal_info .personal_info_box .divider {
+  height: 0.5px;
+  background-color: #d3d3d3;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .home_page .personal_info {
+    width: auto;
+  }
+  .home_page .personal_info .headline {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.035em;
+  }
+  .home_page .personal_info .subtitle {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.035em;
+  }
+  .home_page .personal_info .personal_info_box {
+    border: none;
+  }
+  .home_page .personal_info .personal_info_box .first_row {
+    padding: 30px 16px;
+  }
+  .home_page .personal_info .personal_info_box .single_row {
+    padding: 30px 16px;
+  }
+  .home_page .personal_info .personal_info_box .single_row .title {
+    font-size: 13px;
+  }
+  .home_page .personal_info .personal_info_box .single_row .value {
+    font-size: 14px;
+  }
+  .home_page .personal_info .personal_info_box .single_row .bio {
+    width: 180px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

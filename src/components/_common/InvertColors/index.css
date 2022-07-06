@@ -1,0 +1,19 @@
+.invert_colors {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.black_invert_colors_icon {
+  color: #828282;
+}
+
+@media (max-width: 900px) {
+  .invert_colors {
+    top: 0.25rem;
+    right: 0.25rem;
+  }
+  .invert_colors_icon {
+    width: 1.5rem !important;
+  }
+}

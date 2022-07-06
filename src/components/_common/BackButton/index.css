@@ -1,0 +1,37 @@
+.back_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 40px;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.back_btn .back_icon {
+  width: 18px;
+  color: #2d9cdb;
+}
+
+.back_btn .back_text {
+  font-size: 18px;
+  color: #2d9cdb;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.035em;
+  padding-left: 8px;
+}
+
+@media (max-width: 900px) {
+  .back_btn {
+    padding: 0 16px;
+    padding-bottom: 1rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

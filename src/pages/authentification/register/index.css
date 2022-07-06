@@ -1,0 +1,225 @@
+.register-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.black_register-page {
+  background: #333333;
+  color: #e0e0e0;
+}
+
+.register-page .register-box-container {
+  width: 473px;
+}
+
+.register-page .register-box-container .register-container-content {
+  border: 1px solid #bdbdbd;
+  width: auto;
+  margin: 0 auto;
+  padding: 50px 60px;
+  border-radius: 24px;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .join-learners {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.035em;
+  padding-top: 28px;
+}
+
+.register-page .register-box-container .register-container-content .master-web {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  padding-top: 14.5px;
+  padding-bottom: 32.66px;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .input-field-box {
+  position: relative;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .input-field-box
+  .input-icon {
+  opacity: 0.6;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .input-field-box
+  .black_input-icon {
+  color: #828282;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .input-field-box
+  .input-field {
+  border: 1px solid #bdbdbd;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 48px;
+  width: 100%;
+  color: #828282;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  padding-left: 3rem;
+  outline: none;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .input-field-box
+  .black_input-field {
+  background-color: #333333;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .input-field-box
+  svg {
+  position: absolute;
+  top: 20%;
+  left: 12px;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .email-input-field-box {
+  padding-bottom: 14.5px;
+}
+
+.register-page .register-box-container .register-container-content .submit-btn {
+  height: 38px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #2f80ed;
+  color: white;
+  margin-top: 22.5px;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  text-transform: inherit;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .continue-with-social {
+  font-size: 14px;
+  color: #828282;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.035em;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .social-icons
+  .MuiIconButton-root {
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .social-icons
+  .social-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1px solid #828282;
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: black;
+  opacity: 0.6;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .already-a-member {
+  font-size: 14px;
+  color: #828282;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.035em;
+  text-align: center;
+}
+
+.register-page
+  .register-box-container
+  .register-container-content
+  .already-a-member
+  a {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+@media (max-width: 900px) {
+  .register-page {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .register-page .register-box-container {
+    width: 100%;
+  }
+  .register-page .register-box-container .register-container-content {
+    padding: 0;
+    width: 90%;
+    border: none;
+    padding-top: 20px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

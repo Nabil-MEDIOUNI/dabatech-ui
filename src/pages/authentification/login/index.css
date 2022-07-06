@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+
+.login-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.black_login-page {
+  background: #333333;
+  color: #828282;
+}
+
+.login-page .login-box-container {
+  width: 473px;
+}
+
+.login-page .login-box-container .login-container-content {
+  border: 1px solid #bdbdbd;
+  width: auto;
+  margin: 0 auto;
+  padding: 50px 60px;
+  border-radius: 24px;
+}
+
+.login-page .login-box-container .login-container-content .join-learners {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.035em;
+  padding: 28px 0;
+}
+
+.login-page .login-box-container .login-container-content .input-field-box {
+  position: relative;
+}
+
+.login-page
+  .login-box-container
+  .login-container-content
+  .input-field-box
+  .input-icon {
+  opacity: 0.6;
+}
+
+.login-page
+  .login-box-container
+  .login-container-content
+  .input-field-box
+  .black_input-icon {
+  color: #828282;
+}
+
+.login-page
+  .login-box-container
+  .login-container-content
+  .input-field-box
+  .input-field {
+  border: 1px solid #bdbdbd;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 48px;
+  width: 100%;
+  color: #828282;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  padding-left: 3rem;
+  outline: none;
+}
+
+.login-page
+  .login-box-container
+  .login-container-content
+  .input-field-box
+  .black_input-field {
+  background-color: #333333;
+}
+
+.login-page .login-box-container .login-container-content .input-field-box svg {
+  position: absolute;
+  top: 20%;
+  left: 12px;
+}
+
+.login-page
+  .login-box-container
+  .login-container-content
+  .email-input-field-box {
+  padding-bottom: 14.5px;
+}
+
+.login-page .login-box-container .login-container-content .submit-btn {
+  height: 38px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #2f80ed;
+  color: white;
+  margin-top: 22.5px;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  text-transform: inherit;
+  padding-bottom: 8px;
+}
+
+.login-page .login-box-container .login-container-content form {
+  padding-bottom: 8px;
+}
+
+.login-page .login-box-container .login-container-content .forget_password {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  color: #828282;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.035em;
+  font-family: NotoSans;
+  text-decoration: none;
+}
+
+.login-page
+  .login-box-container
+  .login-container-content
+  .continue-with-social {
+  font-size: 14px;
+  color: #828282;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.035em;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.github_login button {
+  background: none;
+  border: none;
+  margin-left: -6px;
+}
+
+.login-page .login-box-container .login-container-content .already-a-member {
+  font-size: 14px;
+  color: #828282;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.035em;
+  text-align: center;
+}
+
+.login-page .login-box-container .login-container-content .already-a-member a {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+@media (max-width: 900px) {
+  .login-page {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .login-page .login-box-container {
+    width: 100%;
+  }
+  .login-page .login-box-container .login-container-content {
+    padding: 0;
+    width: 90%;
+    border: none;
+    padding-top: 20px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

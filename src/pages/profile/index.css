@@ -1,0 +1,202 @@
+.profile_page .personal_info {
+  text-align: center;
+  padding-bottom: 5rem;
+  width: 845px;
+  margin: 0 auto;
+}
+
+.profile_page .personal_info .personal_info_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.profile_page .personal_info .personal_info_box .first_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.profile_page .personal_info .personal_info_box .change_photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 25px 50px 0 50px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.profile_page .personal_info .personal_info_box .change_photo .upload {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile_page
+  .personal_info
+  .personal_info_box
+  .change_photo
+  .upload
+  .upload_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 2rem;
+  color: white;
+}
+
+.profile_page
+  .personal_info
+  .personal_info_box
+  .change_photo
+  .upload
+  .user_photo {
+  width: 72px;
+  border-radius: 8px;
+}
+
+.profile_page .personal_info .personal_info_box .change_photo .upload_text {
+  font-size: 13px;
+  color: #828282;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+  padding-left: 25px;
+}
+
+.profile_page .personal_info .personal_info_box .first_row .change_info {
+  text-align: left;
+}
+
+.profile_page
+  .personal_info
+  .personal_info_box
+  .first_row
+  .change_info
+  .headline {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: -0.035em;
+}
+
+.profile_page
+  .personal_info
+  .personal_info_box
+  .first_row
+  .change_info
+  .message {
+  font-size: 14px;
+  color: #828282;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+  padding-top: 4px;
+}
+
+.profile_page .personal_info .personal_info_box .single_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: start;
+  padding: 30px 50px 0 50px;
+}
+
+.profile_page .personal_info .personal_info_box .single_row .label {
+  font-size: 13px;
+  color: #4f4f4f;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+}
+
+.profile_page .personal_info .personal_info_box .single_row .field_input {
+  height: 52px;
+  width: 416px;
+  border-radius: 12px;
+  border: 1px solid #828282;
+  margin-top: 4px;
+  padding-left: 18px;
+  font-family: 'NotoSans', 'Open Sans', 'sans-serif';
+}
+
+.profile_page .personal_info .personal_info_box .single_row .bio_field_input {
+  padding-top: 18px;
+  height: 92px;
+}
+
+.profile_page .personal_info .personal_info_box .save_btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  background: #2f80ed;
+  border-radius: 8px;
+  margin: 30px 50px 42px 50px;
+  width: 82px;
+  height: 38px;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .profile_page .personal_info {
+    width: auto;
+  }
+  .profile_page .personal_info .headline {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.035em;
+  }
+  .profile_page .personal_info .subtitle {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.035em;
+  }
+  .profile_page .personal_info .personal_info_box {
+    border: none;
+  }
+  .profile_page .personal_info .personal_info_box .change_photo {
+    margin: 0 16px 15px 16px;
+  }
+  .profile_page .personal_info .personal_info_box .first_row {
+    padding: 30px 16px;
+  }
+  .profile_page .personal_info .personal_info_box .single_row .field_input {
+    width: 90%;
+  }
+  .profile_page .personal_info .personal_info_box .single_row {
+    padding: 15px 16px;
+  }
+  .profile_page .personal_info .personal_info_box .single_row .bio {
+    width: 180px;
+  }
+  .profile_page .personal_info .personal_info_box .save_btn {
+    margin: 15px 16px 30px 16px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
